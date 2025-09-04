@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="logo">
+            <a href="home.html" class="img-logo"><img src="bomb1.png" alt=""></a>
+        </div>
+
+        <h1 class="title"><strong>Bamu Multispeciality Hospital</strong></h1>
+       
+        <nav class="header">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="form.html">Form</a>
+
+        </nav>
+    </div>
+
+    <h1 class="referal-form">Covid-19 Referal-Form</h1>
+
+    <div class="pd">
+        <h2>Personel Details</h2>
+        <form action="submit">
+            <label for="firstN">First Name</label><br><br>
+            <input type="text" id="firstN" class="line" required><br>
+
+            <br>
+
+            <label for="lastN">Last Name</label><br><br>
+            <input type="text" id="lastN" class="line" required><br>
+
+            <br>
+
+            <label for="age">Age</label><br><br>
+            <input type="number" id="age" class="line" required><br>
+
+            <br>
+
+            <label for="">dob</label><br><br>
+            <input type="date" id="dob" class="line" required><br>
+
+            <br>
+
+            <label for="gender">Gender</label required><br><br>
+
+            <br>
+
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br>
+
+            <br>
+
+            <label for="gender">Patient in quarantine facility?</label><br>
+
+            <br>
+
+            <input type="radio" name="facility?" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="facility?" id="no" value="no">
+            <label for="no">No</label><br>
+
+            <br>
+
+            <label for="blood">Select your blood group</label><br><br>
+            <select name="blood" id="blood" class="line">
+                <option value="Select your group">Select your group</option>
+                <option value="o+ve">o+ve</option>
+                <option value="A+ve">A+ve</option>
+                <option value="b+ve">b+ve</option>
+                <option value="z+ve">z+ve</option>
+            </select><br><br>
+
+            <label for="living">Present Village/Town</label><br><br>
+            <input type="text" id="living" class="line"><br><br>
+
+            <label for="dis">District/State</label><br><br>
+            <input type="text" id="dis" class="line"><br><br>
+
+            <label for="nat">Nationality</label><br><br>
+            <input type="text" id="nat" class="line"><br><br>
+
+            <label for="num">Phone number</label><br><br>
+            <input type="number" id="num" class="line"><br><br>
+
+            <label for="add">Patient address</label><br><br>
+            <textarea name="add" id="add" placeholder="Enter your address" class="line"></textarea><br><br>
+
+            <label for="pin">Pin code</label><br><br>
+            <input type="number" class="line"><br><br>
+
+            <label for="anum">Adhar Number</label><br><br>
+            <input type="number" class="line"><br><br>
+
+            <label for="aimg">Upload your adhar image</label><br><br>
+            <input type="file" id="aimg" class="line"><br><br>
+
+            <label for="passnum">Passport Number</label><br><br>
+            <input type="number" id="passnum" class="line"><br><br>
+
+            <h2>Medical Information</h2>
+
+            <label for="Sym"><b>Symptoms</b></label><br><br>
+
+            <input type="checkbox" id="cough">
+            <label for="cough">cough</label><br>
+
+            <input type="checkbox" id="diarrhea">
+            <label for="diarrhea">Diarrhea</label><br>
+
+            <input type="checkbox" id="vomiting">
+            <label for="vomiting">Vomiting</label><br>
+
+
+            <input type="checkbox" id="Fever">
+            <label for="Fever">Fever</label><br>
+
+
+            <input type="checkbox" id="pain">
+            <label for="pain">Abdominal Pain</label><br>
+
+            <input type="checkbox" id="breath">
+            <label for="breath">Breathlessness</label><br><br>
+
+            <h2>Hospitalization</h2>
+
+            <label for="gender">Hospitalized</label><br><br>
+
+
+            <input type="radio" name="facility?" id="sey" value="yes">
+            <label for="sey">Yes</label>
+            <input type="radio" name="facility?" id="on" value="no">
+            <label for="on">No</label><br><br>
+
+            <label for="hdate">Hospitalization Date</label><br><br>
+            <input type="date" class="line"><br><br>
+
+            <label for="hdate">Hospital Name</label><br><br>
+            <input type="text" class="line"><br><br>
+
+            <label for="haddress">Hospital Address</label><br><br>
+            <textarea name="add" id="haddress" class="line"></textarea><br><br>
+
+            <h2>Doctor Details</h2>
+
+            <label for="dname">Doctor Name</label><br><br>
+            <input type="text" id="dname" class="line"><br><br>
+
+            <label for="dnum">Doctor Mobile No</label><br><br>
+            <input type="number" class="line"><br><br>
+
+            <a href="sr.html" class="reg-but">Register</a>
+        </form>
+    </div>
+
+    <footer>&copy;2025 BaMu Multispeciality Hospital. All rights reserved.</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+    background-image: url(bombsucessfull.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.suc {
+    margin-top: 250px;
+    font-weight: lighter;
+}
+
+h1,
+h2 {
+    text-align: center;
+}

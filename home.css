@@ -1,0 +1,86 @@
+.anchor{
+   text-align: right;
+}
+h2{
+    text-align: center;
+}
+.ban{
+    background-color: rgb(104, 74, 74);
+    margin-top: 50px;
+    margin-left: 225px;
+    margin-right: 225px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+.but{
+    color: white;
+    background-color: rgb(51, 131, 155);
+    margin-left: 220px;
+    margin-top: 25px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.but:hover{
+    background-color: green;
+    transition-duration: 0.4s;
+}
+body{
+    background-image:url(hos.png) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color:  rgba(53, 153, 235, 0.39); 
+    padding: 20px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.img-logo {
+    display: inline-block;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 200%;
+    margin: 0;
+    text-wrap: nowrap;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.header {
+    font-size: 150%;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30px;
+     color: white;
+}
+.bub{
+    background-color: rgba(240, 248, 255, 0.705);
+    width: 700px;
+    margin-left: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+    margin-top: 50px;
+}

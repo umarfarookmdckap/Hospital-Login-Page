@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(og\ bomb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 20px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.title {
+    font-size: 200%;
+    margin: 0;
+    text-wrap: nowrap;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.referal-form {
+    font-size: 300%;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+
+.referal-form:hover {
+    color: rgb(13, 2, 160);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.header {
+    font-size: 150%;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.abt {
+    margin-top: 100px;
+    background-color: rgba(240, 248, 255, 0.562);
+    height: 400px;
+    display: flex;
+}
+
+
+
+.bison {
+    margin-left: 80px;
+    width: 350px;
+    height: 300px;
+    border: solid rgba(255, 255, 255, 0.671);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.753);
+}
+
+.about {
+    text-align: center;
+}
+
+.ptag {
+    margin-top: 50px;
+}
+
+.paragraph {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.493);
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+}
